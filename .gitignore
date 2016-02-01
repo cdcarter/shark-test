@@ -1,0 +1,5 @@
+build.properties
+working/
+dev/
+test/
+prod/
