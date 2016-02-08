@@ -1,0 +1,10 @@
+addons:
+  apt:
+    packages:
+    - ant
+    - git
+sudo: false
+language: generic
+install:
+  - git clone https://github.com/cdcarter/laptop.sh
+  - bash laptop/get-shark.sh
