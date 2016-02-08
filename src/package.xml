@@ -2,12 +2,26 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>sharkTest</fullName>
     <types>
+        <members>Shark__c.Ocean__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Ocean__c</members>
         <members>Shark__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Ocean__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Ocean__c-Ocean Layout</members>
         <members>Shark__c-Shark Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Ocean__c.All</members>
+        <name>ListView</name>
     </types>
     <version>35.0</version>
 </Package>
